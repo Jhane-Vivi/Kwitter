@@ -1,11 +1,11 @@
 var firebaseConfig = {
   apiKey: "AIzaSyAmYk62g27IX1Gr9Xfc4H1Fy-NyvZ_jupY",
   authDomain: "vamosconversar-3d390.firebaseapp.com",
+  databaseURL: "https://vamosconversar-3d390-default-rtdb.firebaseio.com",
   projectId: "vamosconversar-3d390",
   storageBucket: "vamosconversar-3d390.appspot.com",
   messagingSenderId: "942339416041",
   appId: "1:942339416041:web:d9119897928b18f1347578"
-};
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
