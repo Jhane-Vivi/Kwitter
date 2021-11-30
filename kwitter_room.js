@@ -1,4 +1,4 @@
-const firebaseConfig = {
+var firebaseConfig = {
   apiKey: "AIzaSyAmYk62g27IX1Gr9Xfc4H1Fy-NyvZ_jupY",
   authDomain: "vamosconversar-3d390.firebaseapp.com",
   projectId: "vamosconversar-3d390",
@@ -8,7 +8,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
 user_name = localStorage.getItem("user_name");
 
